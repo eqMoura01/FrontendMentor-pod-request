@@ -1,0 +1,154 @@
+:root {
+    --light-green: #54e6af;
+    --greyish-blue: #c2cbe5;
+    --dark-grey: #2c344b;
+    --light-grey: #5a668a;
+    --navy-blue: #121725;
+    --white: #FFFFFF;
+}
+
+* {
+    font-family: Chivo;
+}
+
+body {
+    background-color: var(--navy-blue);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    padding: 40px 120px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+main h1 {
+    width: 665px;
+
+    color: var(--light-green);
+    font-family: Chivo;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    text-transform: uppercase;
+
+}
+
+main h1 span {
+    color: var(--white);
+}
+
+p {
+    width: 445px;
+
+    color: var(--greyish-blue);
+    font-family: Chivo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.texts-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: -65px;
+    bottom: 0;
+    width: 850px;
+    height: fit-content;
+    flex-shrink: 0;
+    margin-left: 165px;
+    gap: 30px;
+    z-index: 1;
+
+    background-color: var(--navy-blue);
+}
+
+.podcasts-logos {
+    width: 536px;
+    height: 29px;
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.podcasts-logos img {
+    height: max-content;
+}
+
+.btn-container {
+    width: 427px;
+    height: 56px;
+    flex-shrink: 0;
+    background-color: var(--light-grey);
+    border-radius: 28px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.btn-container input {
+    color: #FFF;
+    background: none;
+    font-family: Chivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 80%;
+
+    border-radius: 28px;
+    border: none;
+
+    padding: 0 20px;
+
+    outline: none;
+    fill: none;
+}
+
+.btn-container input::placeholder{
+    color: var(--greyish-blue);
+}
+
+.btn-container button {
+    width: 162px;
+    height: 89%;
+    flex-shrink: 0;
+
+    margin-right: 3px;
+
+    border-radius: 28px;
+    border: none;
+
+    background: #54E6AF;
+    box-shadow: 0px 2px 4px 0px rgba(84, 230, 175, 0.14);
+}
+
+.btn-container button:hover{
+    cursor: pointer;
+}
+
+.img-host {
+    transform: scale(1.2);
+    right: 0;
+}
+
+footer img {
+    float: right;
+    position: relative;
+}
